@@ -1,0 +1,130 @@
+@media (max-width:1320px){
+.home_section, .about, .services_area, .destination, .testimonials, .our_team, .footer_area{
+width: 100%;
+height: auto;
+}
+.about_items_heading{
+font-size: 31px;
+font-weight: 700;
+margin: 0px !important;
+}
+.heading_about{
+font-size: 40px;
+line-height: 55px;
+}
+.image_hotel_1{
+display: inline-block;
+width: 90%;
+height: 85%;
+}
+.image_hotel_2{
+display: inline-block;
+width: 100%;
+height: 100%;
+}
+.image_hotel_3{
+display: inline-block;
+width: 70%;
+height: 60%;
+}
+.image_hotel_4{
+display: inline-block;
+width: 90%;
+height: 80%;
+}
+.input_form{
+padding: 16px 11px;
+}
+.services_container{
+width: 100%;
+height: 100%;
+display: flex;
+justify-content: space-around;
+align-items: center;
+flex-wrap: wrap;
+margin: 50px 0px;
+}
+}
+@media(max-width:1035px){
+.btn_navbar{
+background-color: #2A1625;
+font-size: 14px;
+padding-left: 30px !important;
+padding-right: 30px !important;
+}
+}
+@media (max-width:992px){
+.header{
+width: 100%;
+height: 100%;
+background-color:#F9D371;
+padding: 0px 45px;
+
+}
+.img_logo{
+width: 84px;
+}
+.nav-link{
+font-size: 17px;
+margin: 15px 4px;
+}
+.dropdown-menu{
+padding: 6px 8px;
+width: 220px;
+display: none;
+opacity: 1;
+}
+.navbar-nav{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.heading_home{
+font-size: 50px;
+font-weight: 900;
+letter-spacing: 2px;
+margin-bottom: 14px !important;
+}
+.hotel_search_form_content{
+width: 90%;
+height: 360px;
+margin: auto;
+position: absolute;
+bottom: -140px;
+padding: 30px 22px;
+}
+.about{
+margin-top: 200px !important;
+}
+.image_container{
+width: 95%;
+height: 320px;
+}
+.text_container_testimonials{
+width: 100%;
+display: flex;
+justify-content: center !important;
+flex-direction: column;
+padding: 0 15px;
+}
+.heading_testimonial{
+font-size: 32px;
+margin-bottom: 30px;
+margin-top: 12px;
+}
+.para_testimonial{
+font-size: 14px;
+font-weight: 500;
+line-height: 25px;
+margin: 0px 0px !important;
+margin-bottom: 9px !important;
+}
+.btn_home_content{
+padding: 14px 31px;
+}
+.indicator_testimonials{
+position: absolute;
+bottom: -65px;
+}
+}

@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <!-- Kendi yerel CSS dosyalarınız -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    
+    <title>Tour Website - By Web Tutorials</title>
+</head>
+<body>
+    <!-- header start -->
+    <div class="header">
+
+        <div class="container-fluid px-0">
+<div class="row gx-0">
+<div class="col-lg-3 d-none d-lg-block">
+    <a class="navbar-brand w-100 h-100 p-0 d-flex justify-content-center align-items-center" href="#">
+      <img src="./images/logo.jpg" class="img-fluid img_logo" alt="logo" width="150px"></a>
+</div>
+<div class="col-lg-9">
+    <div class="row gx-0 bg-white d-lg-flex d-none">
+<div class="col-lg-7 px-4 text-start">
+    <div class="top_navbar">
+        <i class="fa-solid icon_topnavbar fa-envelope"></i>
+      <p class="para_top_navbar mb-0">info@tursirketiniz.com</p>  
+    </div>
+    <div class="top_navbar">
+        <i class="fa-solid icon_topnavbar fa-phone"></i>
+      <p class="para_top_navbar mb-0">+90 (212) 555 01 23</p>  
+    </div>
+</div>
+<div class="col-lg-5 px-0 text-end">
+  <div class="top_navbar">
+ 
+    <a href="#"><i class="fa-brands icon_top_navbar  fa-square-x-twitter"></i></a>
+    <a href="#"><i class="fa-brands icon_top_navbar fa-facebook"></i></a>
+    <a href="#"><i class="fa-brands icon_top_navbar fa-linkedin"></i></a>
+    <a href="#"><i class="fa-brands icon_top_navbar fa-square-instagram"></i></a>
+    <a href="#"><i class="fa-brands icon_top_navbar fa-youtube"></i></a>
+    
+  </div>
+</div>
+    </div>
+    <!-- navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark p-3 p-lg-0">
+  <div class="container-fluid px-0">
+    <a class="navbar-brand" href="#"><img src="./images/logo.jpg" class="img-fluid img_logo d-lg-none d-block" alt="logo"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+  <ul class="navbar-nav mr-auto py-0">
+    
+    <li class="nav-item">
+      <a class="nav-link" aria-current="page" href="#">Home</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-link" href="#">About</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-link" href="#">Services</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-link" href="#">Rooms</a>
+    </li> 
+    
+    <!-- Pages Açılır Menüsü -->
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Pages
+      </a>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">-Booking</a></li>
+        <li><a class="dropdown-item" href="#">-About</a></li>
+        <li><a class="dropdown-item" href="#">-Our Team</a></li>
+        <li><a class="dropdown-item" href="#">-Testimonials</a></li>
+        <li><a class="dropdown-item" href="#">-Our Hotels</a></li>
+        <li><a class="dropdown-item" href="#">-Rooms</a></li>
+        <li><a class="dropdown-item" href="#">-Contact</a></li>
+        <li><a class="dropdown-item border-0" href="#">-Offers</a></li>
+      </ul>
+    </li> 
+    <li class="nav-item">
+      <a class="nav-link" href="#">Contacts</a>
+    </li>
+
+  </ul>
+</div>
+
+    <a href="#" class="btn_navbar py-4 px-md-5 d-lg-block d-none"><span class="span"></span>Premium Version <span class="icon"><i class="fa-solid fa-arrow-right"></i></span></a>
+  </div>
+</nav>
+<!-- navbar end -->
+</div>
+</div>
+        </div>
+
+        
+    </div>
+    <!-- header end -->
+    <div class="home_section">
+      <div id="carouselExample" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="content_home img-1">
+        <div class="text_content_home">
+<h6 class="section_title text-white mb-3">Luxury Living</h6>
+<h1 class="heading_home text-white mb-4">Travel To Turkey</h1>
+<a href="#" class="btn btn_home_content py-md-3 px-md-5 me-3">Discover Now</a>
+<a href="#" class="btn btn_home_content py-md-3 px-md-5 bg-light">Book A Room</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+       <div class="content_home img-2">
+        <div class="text_content_home">
+<h6 class="section_title text-white mb-3">Luxury Living</h6>
+<h1 class="heading_home text-white mb-4">Have Adventure To Easier</h1>
+<a href="#" class="btn btn_home_content py-md-3 px-md-5 me-3">Book A Room</a>
+<a href="#" class="btn btn_home_content py-md-3 px-md-5 bg-light">Discover Now</a>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="slider_icon"><i class="fa-solid fa-arrow-left"></i></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="slider_icon"><i class="fa-solid fa-arrow-right"></i></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+    </div>
+    <!-- home section end -->
+<div class="hotel_search_form container">
+
+</div>
+<div class="hotel_search_form_container container">
+<div class="hotel_search_form_content">
+  <div class="container_fluid">
+    <div class="hotel_search_form">
+      <form action="">
+        <div class="container">
+          <div class="row container_form">
+<div class="col-lg-3 col-6 my-2">
+  <label for="check_in">Check In</label>
+  <input type="date" class="input_form" id="check-in">
+</div>
+<div class="col-lg-3 col-6 my-2">
+  <label for="check_out">Check Out</label>
+  <input type="date" class="input_form" id="check-out">
+</div>
+<div class="col-lg-3 col-10 my-2">
+  <label for="place">Place</label>
+  <input type="text" class="input_form" id="place" placeholder="Where To Go?">
+</div>
+<div class="col-lg-1 col-2 my-2 ">
+  <label for="Rooms">Rooms</label>
+  <select name="" class="input_form" id="Rooms">
+    <option value="01">01</option>
+    <option value="02">02</option>
+    <option value="03">03</option>
+    <option value="04">04</option>
+    <option value="05">05</option>
+    <option value="06">06</option>
+    <option value="07">07</option>
+  </select>
+</div>
+<div class="col-lg-2 col-12 my-2">
+  <label for="Availability">Availability</label>
+  <button type="submit" class="input_btn_submit">Check Availability</button>
+</div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+</div>
+<!-- about start -->
+<section class="about">
+<div class="container">
+  <div class="row">
+    <div class="col-lg-6">
+      <div class="about_content">
+        <h6 class="about_title text-start">About Us</h6>
+        <h2 class="heading_about text-start">Welcome To 
+          <br>Lets Go Travel Hotel</h2>
+          <p class="para_about">"Discover Turkey’s rich history and stunning landscapes with budget-friendly travel options tailored for an unforgettable, affordable vacation."</p>
+          <h4 class="heading_sm">Manager:<span>Emin Özen</span></h4>
+
+          <div class="media_about_items">
+            <div class="row mt-4">
+              <div class="col-4">
+                <div class="border rounded p-1">
+                  <div class="border rounded text-center py-2">
+                   <p class="about-items_icon"><i class="fa-solid fa-hotel"></i> </p>
+                   <h5 class="about_items_heading">1600</h5>
+                   <p class="about_items_para">Rooms</p>
+                  
+          
+                  </div>
+            </div>
+          </div>
+              <div class="col-4">
+                <div class="border rounded p-1">
+                  <div class="border rounded text-center py-2">
+                   <p class="about-items_icon"><i class="fa-solid fa-hotel"></i> </p>
+                   <h5 class="about_items_heading">2500</h5>
+                   <p class="about_items_para">Clients</p>
+                  
+          
+                  </div>
+            </div>
+          </div>
+              <div class="col-4">
+                <div class="border rounded p-1">
+                  <div class="border rounded text-center py-2">
+                   <p class="about-items_icon"><i class="fa-solid fa-hotel"></i> </p>
+                   <h5 class="about_items_heading">99</h5>
+                   <p class="about_items_para">Hotels</p>
+                  </div>
+            </div>
+          </div>
+      </div>
+    </div>
+    <a href="#" class="btn_content_about">View Details</a>
+  </div>
+</div>
+<div class="col-lg-6">
+  <div class="images_container">
+     <div class="row p-2">
+      <div class="col-lg-6 col-6">
+        <div class="images_hotel_container">
+          <div class="image_hotel_1"></div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-6">
+        <div class="images_hotel_container">
+          <div class="image_hotel_2"></div>
+        </div>
+      </div>
+    </div>
+     <div class="row p-2">
+      <div class="col-lg-6 col-6">
+        <div class="images_hotel_container">
+          <div class="image_hotel_3"></div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-6">
+        <div class="images_hotel_container">
+          <div class="image_hotel_4"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</section>
+<!-- about end -->
+<div class="services_area">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="services_container">
+          <div class="services_content">
+            <p class="icon_sevice"><i class="fa-solid fa-hotel"></i></p>
+            <h4 class="heading_services">Apartments</h4>
+          </div>
+          <div class="services_content">
+            <p class="icon_sevice"><i class="fa-solid fa-utensils"></i></p>
+            <h4 class="heading_services">Restaurant</h4>
+          </div>
+          <div class="services_content">
+            <p class="icon_sevice"><i class="fa-solid fa-person-swimming"></i></p>
+            <h4 class="heading_services">Swimming Pool</h4>
+          </div>
+          <div class="services_content">
+            <p class="icon_sevice"><i class="fa-solid fa-gift"></i></p>
+            <h4 class="heading_services">Events Party</h4>
+          </div>
+          <div class="services_content">
+            <p class="icon_sevice"><i class="fa-solid fa-dumbbell"></i></p>
+            <h4 class="heading_services">Gym Center</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- about end -->
+<section class="destination">
+  <h3 class="section_heading display-6">Popular Destinations in 2026</h3>
+  <p class="section_para">Take A Look At These Offers</p>
+
+  <div class="container">
+    <div class="row m-lg-5 my-">
+      <div class="col-lg-3 col-md-4 col-6">
+        <div class="content_destination image-1">
+          <div class="content_text_place">
+<span class="tour_price">From:$500</span>
+<p class="place">Mardin</p>
+          </div>
+         
+        </div>
+      </div>
+        <div class="col-lg-3 col-md-4 col-6">
+        <div class="content_destination image-2">
+                    <div class="content_text_place">
+<span class="tour_price">From:$500</span>
+<p class="place">Sanliurfa</p>
+          </div>
+        </div>
+      </div>
+        <div class="col-lg-3 col-md-4 col-6">
+        <div class="content_destination image-3">
+                    <div class="content_text_place">
+<span class="tour_price">From:$500</span>
+<p class="place">İzmir</p>
+          </div>
+        </div>
+      </div>
+        <div class="col-lg-3 col-md-4 col-6">
+        <div class="content_destination image-4">
+                    <div class="content_text_place">
+<span class="tour_price">From:$500</span>
+<p class="place">Ankara</p>
+          </div>
+        </div>
+      </div>
+        <div class="col-lg-3 col-md-4 col-6">
+        <div class="content_destination image-5">
+                    <div class="content_text_place">
+<span class="tour_price">From:$500</span>
+<p class="place">Nevsehir</p>
+          </div>
+        </div>
+      </div>
+        <div class="col-lg-3 col-md-4 col-6">
+        <div class="content_destination image-6">
+                    <div class="content_text_place">
+<span class="tour_price">From:$500</span>
+<p class="place">Amasya</p>
+          </div>
+        </div>
+      </div>
+        <div class="col-lg-3 col-md-4 col-6">
+        <div class="content_destination image-7">
+                    <div class="content_text_place">
+<span class="tour_price">From:$500</span>
+<p class="place">Samsun</p>
+          </div>
+        </div>
+      </div>
+        <div class="col-lg-3 col-md-4 col-6">
+        <div class="content_destination image-8">
+                    <div class="content_text_place">
+<span class="tour_price">From:$500</span>
+<p class="place">Antalya</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- section end -->
+<!-- member section start -->
+<section class="testimonials">
+<div class="testimonial_area">
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+  <div class="carousel-indicators indicator_testimonials">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6">
+            <div class="image_container img_testimonial_1">
+
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 my-4 my-sm-4">
+            <div class="text_container_testimonials">
+<div class="section_heading_testimonial">
+ <h6 class="heading_sm_testimonial">Testimonials</h6>
+ <h2 class="heading_testimonial">Our Guests Love Us</h2>
+</div>
+<div class="single_testimonial_slide">
+  <p class="para_testimonial">"Our trip to Turkey was absolutely flawless. Exceptional service, beautiful hotels, and incredibly budget-friendly packages. Highly recommended!"</p>
+  <div class="rating_title">
+    <div class="rating">
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+    </div>
+    <h6 class="member_name">Charlotte Sterling<span> -Architect </span></h6>
+  </div>
+</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6">
+            <div class="image_container img_testimonial_2">
+
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 my-4 my-sm-4">
+            <div class="text_container_testimonials">
+<div class="section_heading_testimonial">
+ <h6 class="heading_sm_testimonial">Testimonials</h6>
+ <h2 class="heading_testimonial">Our Guests Love Us</h2>
+</div>
+<div class="single_testimonial_slide">
+  <p class="para_testimonial">"From Istanbul’s historic streets to Cappadocia’s magical skies, every moment in Turkey felt like living inside a beautiful dream."</p>
+  <div class="rating_title">
+    <div class="rating">
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+    </div>
+    <h6 class="member_name">Lukas Müller<span> -Painter</span></h6>
+  </div>
+</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6">
+            <div class="image_container img_testimonial_3">
+
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 my-4 my-sm-4">
+            <div class="text_container_testimonials">
+<div class="section_heading_testimonial">
+ <h6 class="heading_sm_testimonial">Testimonials</h6>
+ <h2 class="heading_testimonial">Our Guests Love Us</h2>
+</div>
+<div class="single_testimonial_slide">
+  <p class="para_testimonial">"Turkey completely stole my heart. The breathtaking landscapes, rich history, and deeply warm hospitality made this an unforgettable adventure."</p>
+  <div class="rating_title">
+    <div class="rating">
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+    </div>
+    <h6 class="member_name">Elena Petrova<span> -Teacher</span></h6>
+  </div>
+</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</div>
+</div>
+</section>
+<!-- member end -->
+<!-- team start -->
+<section class="our_team">
+  <h6 class="heading_title">Our Staff</h6>
+  <h1 class="mb-5 heading_lg_title">Meet Our <span class="text-warning">Team</span></h1>
+  <div class="our_team_area">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="team_content_container">
+            <div class="img_team_member img_member_1">
+              <div class="social_icons_team">
+            <a href="#"><i class="fab icon_accounts_team fa-viadeo"></i></a>
+            <a href="#"><i class="fab icon_accounts_team fa-xing"></i></a>
+            <a href="#"><i class="fab icon_accounts_team fa-linkedin-in"></i></a>
+              </div>
+            </div>
+            <div class="team_section_headings">
+<h4 class="heading_name">Kerem Sipahi</h4>
+<h6 class="heading_sm_name">Founder & CEO</h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="team_content_container">
+            <div class="img_team_member img_member_2">
+              <div class="social_icons_team">
+  <a href="#"><i class="fab icon_accounts_team fa-viadeo"></i></a>
+            <a href="#"><i class="fab icon_accounts_team fa-xing"></i></a>
+            <a href="#"><i class="fab icon_accounts_team fa-linkedin-in"></i></a>
+              </div>
+            </div>
+            <div class="team_section_headings">
+<h4 class="heading_name">Selin Karaca</h4>
+<h6 class="heading_sm_name">Tour Operations Specialist</h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="team_content_container">
+            <div class="img_team_member img_member_3">
+              <div class="social_icons_team">
+  <a href="#"><i class="fab icon_accounts_team fa-viadeo"></i></a>
+            <a href="#"><i class="fab icon_accounts_team fa-xing"></i></a>
+            <a href="#"><i class="fab icon_accounts_team fa-linkedin-in"></i></a>
+              </div>
+            </div>
+            <div class="team_section_headings">
+<h4 class="heading_name">Murat Aydemir</h4>
+<h6 class="heading_sm_name">Lead Tour Leader</h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="team_content_container">
+            <div class="img_team_member img_member_4">
+              <div class="social_icons_team">
+  <a href="#"><i class="fab icon_accounts_team fa-viadeo"></i></a>
+            <a href="#"><i class="fab icon_accounts_team fa-xing"></i></a>
+            <a href="#"><i class="fab icon_accounts_team fa-linkedin-in"></i></a>
+              </div>
+            </div>
+            <div class="team_section_headings">
+<h4 class="heading_name">Fatma Nergis</h4>
+<h6 class="heading_sm_name">Guest Relations Manager</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- team end -->
+<!-- footer start -->
+<div class="footer_area">
+<footer>
+  <div class="container">
+    <div class="row my-5">
+<div class="col-lg-3 col-md-6 col-sm-6">
+  <h2 class="logo_footer">Let's <span>Go</span></h2>
+  <h3>+90 (212) 555 01 23</h3>
+  <p class="para_footer">info@tursirketiniz.com</p>
+  <p class="para_footer">Sirkeci Palas Hanı,Fatih/İstanbul,TR</p>
+  <p class="para_footer_2">"Your trusted travel partner for exploring Turkey’s most magical destinations."</p>
+</div>
+<div class="col-lg-3 col-md-6 col-sm-6">
+  <div class="blogs_section_footer">
+    <h3 class="blogs_footer">Our Blogs</h3>
+    <h5 class="blog_title">11+Travel Tours in Aegean&Mediterranean Sea</h5>
+    <p class="para_blogs_footer"><span><i class="fa-solid fa-clock"></i></span>Jun 27,2027</p>
+  </div>
+  <div class="blogs_section_footer">
+    <h3 class="blogs_footer">Our Blogs</h3>
+    <h5 class="blog_title">17+Travel Tours in The Black Sea</h5>
+    <p class="para_blogs_footer"><span><i class="fa-solid fa-clock"></i></span>Jan 25,2027</p>
+  </div>
+</div>
+<div class="col-lg-3 col-md-6 col-6">
+  <div class="links_footer">
+    <h3 class="blogs_footer">Links</h3>
+    <ul class="p-0">
+<li class="m-2"><a class="links_items_footer"href="#"><span><i class="fa-solid fa-angle-right"></i></span>Booking</a></li>
+<li class="m-2"><a class="links_items_footer"href="#"><span><i class="fa-solid fa-angle-right"></i></span>About</a></li>
+<li class="m-2"><a class="links_items_footer"href="#"><span><i class="fa-solid fa-angle-right"></i></span>Our Team</a></li>
+<li class="m-2"><a class="links_items_footer"href="#"><span><i class="fa-solid fa-angle-right"></i></span>Testimonials</a></li>
+<li class="m-2"><a class="links_items_footer"href="#"><span><i class="fa-solid fa-angle-right"></i></span>Our Hotels</a></li>
+<li class="m-2"><a class="links_items_footer"href="#"><span><i class="fa-solid fa-angle-right"></i></span>Rooms</a></li>
+<li class="m-2"><a class="links_items_footer"href="#"><span><i class="fa-solid fa-angle-right"></i></span>Contact</a></li>
+<li class="m-2"><a class="links_items_footer"href="#"><span><i class="fa-solid fa-angle-right"></i></span>Offers</a></li>
+    </ul>
+</div>
+    </div>
+    <div class="col-lg-3 col-md-6 col-6">
+  <div class="links_footer">
+    <h3 class="blogs_footer">Company</h3>
+    <ul class="p-0">
+<li class="m-2"><a class="links_items_footer"href="#"><span><i class="fa-solid fa-angle-right"></i></span>About Us</a></li>
+<li class="m-2"><a class="links_items_footer"href="#"><span><i class="fa-solid fa-angle-right"></i></span>FAQs</a></li>
+<li class="m-2"><a class="links_items_footer"href="#"><span><i class="fa-solid fa-angle-right"></i></span>Contact Us</a></li>
+<li class="m-2"><a class="links_items_footer"href="#"><span><i class="fa-solid fa-angle-right"></i></span>Privacy Policy</a></li>
+<li class="m-2"><a class="links_items_footer"href="#"><span><i class="fa-solid fa-angle-right"></i></span>Supports</a></li>
+<li class="m-2"><a class="links_items_footer"href="#"><span><i class="fa-solid fa-angle-right"></i></span>Term&Conditions</a></li>
+
+    </ul>
+</div>
+    </div>
+  </div>
+  </div>
+</footer>
+</div>
+</body>
+
+</html>
