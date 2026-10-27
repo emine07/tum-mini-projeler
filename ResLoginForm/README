@@ -1,0 +1,19 @@
+🚀 Yeni bir proje, yeni bir deneyim!
+Bir süredir üzerinde büyük bir tutkuyla çalıştığım ResLoginForm (Dinamik ve Grafik Arka Planlı Giriş Formu) adlı mini projemi tamamladım.
+🎯 Projenin amacı:
+Web uygulamalarının en kritik kapısı olan kullanıcı giriş (login) ekranını; modern UI/UX trendlerine uygun, göz alıcı bir matematik temalı video arka planı (video-background) ve cam saydamlığı efektiyle (glassmorphism) harmanlayarak şık bir arayüz bileşeni oluşturmaktır. Kullanıcıların odaklanmasını artıracak estetik ve tam uyumlu (responsive) bir karşılama ekranı sunmayı amaçlar.
+🛠️ Kullandığım teknolojiler:
+• HTML5: Semantik form elemanları ve arka plan video entegrasyonu için.
+• CSS3: Akıcı animasyonlar, gelişmiş konumlandırma (absolute/relative), esnek hizalama (Flexbox) ve cam efekti gölgelendirmeleri için.
+💡 Bu süreçte neler öğrendim?
+• Video Arka Plan Yönetimi: Web sayfasının arka planına tam ekran bir video yerleştirip, formun bu videonun üzerinde doğru kontrast ve okunabilirlikle kalmasını sağlamak için katman (z-index) ve opaklık yönetimini kavradım.
+• Form Odaklanma Efektleri: Giriş alanlarına (input) tıklandığında alt çizgilerin, metinlerin ve ikonların yumuşak bir geçişle (transition) renk değiştirerek kullanıcıya geri bildirim vermesini sağladım.
+• Responsive Entegrasyon: Tasarımın masaüstü bilgisayarlardaki estetik görüntüsünü kaybetmeden, mobil ve tablet dikey ekranlarına da kusursuz bir şekilde daralabilmesini responsive.css mimarisiyle optimize ettim.
+🔗 Projeyi görüntülemek için:
+GitHub: https://github.com/emine07/tum-mini-projeler/tree/main/ResLoginForm
+
+
+
+Bu projede çalışmak, öğrendiklerimi pratiğe dökmek ve yazılım geliştirme becerilerimi geliştirmek için harika bir deneyim oldu. Öğrenmeye ve yeni projeler geliştirmeye devam ediyorum.
+Yazılım alanında çalışan, becerilerini geliştiren ve benzer projeler üzerinde çalışan kişilerle bağlantı kurmaktan mutluluk duyarım. Deneyimlerinizi ve önerilerinizi paylaşabilirsiniz.
+#Yazılım #YazılımGeliştirme #GitHub #HTML #CSS #LoginForm #UIUX #ResponsiveDesign #FrontendDevelopment
