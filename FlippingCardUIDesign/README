@@ -1,0 +1,43 @@
+🚀 Yeni bir proje, yeni bir deneyim!
+
+Bir süredir üzerinde çalıştığım **FlippingCardUIDesign (Dönen Kart Tasarımı)** adlı mini projemi tamamladım.
+
+🎯 Projenin amacı:
+Kullanıcı etkileşimini artırmak amacıyla, üzerine gelindiğinde (hover) veya tıklandığında pürüzsüz bir animasyonla arkası dönen modern bir kart bileşeni tasarlamaktır. Özellikle ürün kartları, portfolyo özetleri veya çift taraflı bilgi kartları için estetik bir çözüm sunmayı amaçlar.
+
+🛠️ Kullandığım teknolojiler:
+* HTML5
+* CSS3 (3D Transforms, Perspektif, Backface-Visibility)
+
+💡 Bu süreçte neler öğrendim?
+* **CSS 3D Dönüşümleri:** `transform: rotateY(180deg)` ve `transform-style: preserve-3d` özelliklerini kullanarak tarayıcı üzerinde üç boyutlu döndürme efektlerini derinlemesine kavradım.
+* **Arka Yüz Yönetimi:** Kart dönerken arka yüzdeki içeriğin ters görünmesini engellemek ve doğru zamanda görünür kılmak için `backface-visibility: hidden` özelliğinin kritik rolünü deneyimledim.
+
+🔗 Projeyi görüntülemek için:
+GitHub: # 🔄 FlippingCardUIDesign
+
+🚀 Yeni bir proje, yeni bir deneyim!
+
+Bir süredir üzerinde çalıştığım **FlippingCardUIDesign (Dönen Kart Tasarımı)** adlı mini projemi tamamladım.
+
+🎯 Projenin amacı:
+Kullanıcı etkileşimini artırmak amacıyla, üzerine gelindiğinde (hover) veya tıklandığında pürüzsüz bir animasyonla arkası dönen modern bir kart bileşeni tasarlamaktır. Özellikle ürün kartları, portfolyo özetleri veya çift taraflı bilgi kartları için estetik bir çözüm sunmayı amaçlar.
+
+🛠️ Kullandığım teknolojiler:
+* HTML5
+* CSS3 (3D Transforms, Perspektif, Backface-Visibility)
+
+💡 Bu süreçte neler öğrendim?
+* **CSS 3D Dönüşümleri:** `transform: rotateY(180deg)` ve `transform-style: preserve-3d` özelliklerini kullanarak tarayıcı üzerinde üç boyutlu döndürme efektlerini derinlemesine kavradım.
+* **Arka Yüz Yönetimi:** Kart dönerken arka yüzdeki içeriğin ters görünmesini engellemek ve doğru zamanda görünür kılmak için `backface-visibility: hidden` özelliğinin kritik rolünü deneyimledim.
+
+🔗 Projeyi görüntülemek için:
+GitHub: https://github.com/emine07/tum-mini-projeler/tree/main/FlippingCardUIDesign
+
+
+
+#Yazılım #YazılımGeliştirme #GitHub #HTML #CSS #3DTransform #FlippingCard #Frontend
+
+
+
+#Yazılım #YazılımGeliştirme #GitHub #HTML #CSS #3DTransform #FlippingCard #Frontend
