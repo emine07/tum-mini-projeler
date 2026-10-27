@@ -1,0 +1,162 @@
+/* Google Fonts | maven pro*/
+@import url('https://googleapis.com');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Maven Pro", sans-serif;
+}
+
+.main_box {
+    position: relative;
+    background: url('./images/side.avif') right no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+/* Şeffaf Yan Menü Gövdesi (Cam Efekti Eklendi) */
+.main_box .sidebar_menu {
+    position: fixed;
+    height: 100vh;
+    width: 280px;
+    left: -280px;
+    background: rgba(255, 255, 255, 0.08); /* Hafif beyaz şeffaflık */
+    box-shadow: 3px 0 15px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(15px); /* Arkadaki resmi bulandıran sihirli kod */
+    -webkit-backdrop-filter: blur(15px);
+    transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+    z-index: 999; /* Her şeyin önünde durması için */
+}
+
+/* Logo Alanı Düzenlemesi */
+.sidebar_menu .logo {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.sidebar_menu .logo a {
+    color: #ffffff; /* Siyah yerine beyaz şeffaf modda daha şık durur */
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+/* HTML yapınızdaki doğrudan UL/LI seçimi düzeltildi */
+.sidebar_menu ul {
+    list-style: none;
+    margin-top: 20px;
+    padding: 0 10px;
+}
+
+.sidebar_menu ul li {
+    margin-bottom: 5px;
+}
+
+.sidebar_menu ul li a {
+    display: flex;
+    align-items: center;
+    padding: 12px 15px;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+/* İkonların Renk ve Boşluk Ayarları */
+.sidebar_menu ul li a i {
+    width: 30px;
+    font-size: 18px;
+    color: #ffffff; /* İkon rengi netleştirildi */
+    transition: all 0.3s ease;
+}
+
+/* Menü Elemanlarının Üzerine Gelindiğinde Parlama */
+.sidebar_menu ul li a:hover {
+    background: rgba(255, 255, 255, 0.15);
+    color: #ffffff;
+    padding-left: 20px; /* Sağa doğru esneme efekti */
+}
+
+.sidebar_menu ul li a:hover i {
+    transform: scale(1.1);
+}
+
+/* Sosyal Medya İkonları Düzenlemesi */
+.sidebar_menu .social_media {
+    position: absolute;
+    left: 50%;
+    bottom: 30px;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 15px;
+}
+
+.social_media a {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 20px;
+    transition: all 0.3s ease;
+}
+
+.social_media a:hover {
+    color: #ffffff;
+    transform: translateY(-3px);
+}
+
+/* Tetikleyici Mekanizma (Checkbox) */
+#check {
+    display: none;
+}
+
+/* Menü Açma Butonu (Üç Çizgi) */
+.main_box .btn_one i {
+    color: #ffffff; /* Arka plana göre beyaz yapıldı */
+    font-size: 28px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    z-index: 98;
+}
+
+.btn_one i:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+/* Menü Kapatma Butonu (Çarpı) */
+.sidebar_menu .btn_two i {
+    font-size: 24px;
+    color: rgba(255, 255, 255, 0.6);
+    position: absolute;
+    right: 20px;
+    top: 23px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    z-index: 1000; /* Tıklanabilir olması için en üste alındı */
+}
+
+.sidebar_menu .btn_two i:hover {
+    color: #ff4757; /* Kapatma butonuna gelince kırmızımsı parlama */
+}
+
+/* Animasyon Tetikleyicileri */
+#check:checked ~ .sidebar_menu {
+    left: 0px;
+} 
+
+#check:checked ~ .btn_one i {
+    opacity: 0;
+    pointer-events: none; /* Gizliyken tıklanmasını engeller */
+}
+
+

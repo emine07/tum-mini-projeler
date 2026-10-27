@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giriş Formu</title>
+    <!-- İkonlar için Font Awesome kütüphanesini dahil ediyoruz -->
+    <link rel="stylesheet" href="https://cloudflare.com">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="video-arkaplan-konteyner">
+        <!-- Pinterest'ten indirdiğiniz arka plan videosu -->
+        <video autoplay loop muted playsinline class="bg-video">
+            <source src="./images/math-video.mp4" type="video/mp4">
+        </video>
+
+        <!-- Form Alanı -->
+        <div class="form-container">
+            <form class="login-form">
+                
+                <div class="form-header">
+                    <h2>MathLab Blog</h2>
+                </div>
+                
+                <div class="form-body">
+                    <!-- Email Giriş Alanı (Solu İkon Kutulu) -->
+                    <div class="input-group">
+                        <div class="icon-box">
+                            <i class="fa-solid fa-user"></i>
+                        </div>
+                        <input type="text" placeholder="Email or Phone" required>
+                    </div>
+                    
+                    <!-- Şifre Giriş Alanı (Solu İkon Kutulu) -->
+                    <div class="input-group">
+                        <div class="icon-box">
+                            <i class="fa-solid fa-lock"></i>
+                        </div>
+                        <input type="password" placeholder="Password" required>
+                    </div>
+                    
+                    <!-- Şifremi Unuttum Bağlantısı -->
+                    <div class="forgot-pass">
+                        <a href="#">Forgot password?</a>
+                    </div>
+                    
+                    <!-- Giriş Butonu -->
+                    <button type="submit" class="login-btn">Login</button>
+                    
+                    <!-- Üye Değil Misiniz Linki -->
+                    <div class="signup-link">
+                        Not a member? <a href="#">Signup now</a>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>

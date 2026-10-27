@@ -1,0 +1,208 @@
+/* Google Fonts | maven pro*/
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Maven Pro", sans-serif;
+}
+.video-arkaplan-konteyner {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.bg-video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+}
+
+.form-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.35); /* Videoyu biraz karartarak parlamaları öne çıkarır */
+}
+
+/* Cam Efektli Form Kutusu */
+.login-form {
+    width: 380px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    transition: box-shadow 0.5s ease;
+}
+
+/* Formun bütününe yumuşak bir dış parlama */
+.login-form:hover {
+    box-shadow: 0 15px 40px rgba(255, 255, 255, 0.05);
+}
+
+/* Form Başlık Bölümü */
+.form-header {
+    background: rgba(255, 255, 255, 0.08);
+    padding: 25px;
+    text-align: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.form-header h2 {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+/* Form İçerik Alanı */
+.form-body {
+    padding: 35px 30px;
+}
+
+/* İkonlu Input Grubu (Geliştirilmiş Parlama Efekti) */
+.input-group {
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 8px;
+    margin-bottom: 22px;
+    overflow: hidden;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+/* Fareyle kutunun üzerine gelindiğinde */
+.input-group:hover {
+    border-color: rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.12);
+}
+
+/* Yazı yazmak için kutuya tıklandığında (Focus Parlaması) */
+.input-group:focus-within {
+    border-color: rgba(255, 255, 255, 0.7);
+    background: rgba(255, 255, 255, 0.18);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px); /* Hafif yukarı zıplama efekti */
+}
+
+/* Sol Taraftaki İkon Kutusu */
+.input-icon {
+    width: 50px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.05);
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 16px;
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease;
+}
+
+/* Tıklandığında ikonun rengini canlandır */
+.input-group:focus-within .input-icon {
+    color: #ffffff;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+/* Input Yazı Alanı */
+.input-group input {
+    flex: 1;
+    height: 48px;
+    background: transparent;
+    border: none;
+    padding: 0 15px;
+    color: #ffffff;
+    font-size: 15px;
+    outline: none;
+}
+
+.input-group input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+    transition: all 0.3s ease;
+}
+
+/* Tıklandığında placeholder yazısını hafifçe şeffaflaştır */
+.input-group input:focus::placeholder {
+    opacity: 0.3;
+}
+
+/* Şifremi Unuttum Linki */
+.forgot-pass {
+    margin-bottom: 25px;
+}
+
+.forgot-pass a {
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 14px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.forgot-pass a:hover {
+    color: #ffffff;
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.6); /* Yazıya parlama efekti */
+}
+
+/* Giriş Butonu (Neon / Parlama Efektli) */
+.login-btn {
+    width: 100%;
+    height: 48px;
+    background: rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+/* Butonun üzerine gelindiğinde parlaması */
+.login-btn:hover {
+    background: #ffffff;
+    color: #111111; /* Yazı rengi koyulaşır */
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0.7); /* Güçlü beyaz parlama */
+    transform: translateY(-2px);
+}
+
+/* Butona tıklandığı an (Basılma efekti) */
+.login-btn:active {
+    transform: translateY(0);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.4);
+}
+
+/* Alt Kayıt Linki */
+.signup-link {
+    text-align: center;
+    margin-top: 30px;
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 14px;
+}
+
+.signup-link a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.signup-link a:hover {
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.6);
+}
+
