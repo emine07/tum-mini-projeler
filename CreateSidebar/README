@@ -1,0 +1,22 @@
+🚀 Yeni bir proje, yeni bir deneyim!
+
+Bir süredir üzerinde çalıştığım **Responsive Sidebar Navigation (Dinamik Yan Menü)** adlı mini projemi tamamladım.
+
+🎯 Projenin amacı:
+Modern web uygulamalarında ve yönetim panellerinde (dashboard) sıkça ihtiyaç duyulan, kullanıcı dostu, şık ve daralan/açılan (toggle) bir yan menü yapısı kurmaktır. Amacım, hem masaüstü hem de mobil cihazlarda ekran alanını verimli kullanan bir navigasyon bileşeni üretmekti.
+
+🛠️ Kullandığım teknolojiler:
+* HTML5 (Semantik Navigasyon Etiketleri)
+* CSS3 (Flexbox, CSS Transitions, Variables)
+* Font Awesome (Modern ve minimalist ikon setleri için)
+
+💡 Bu süreçte neler öğrendim?
+* **CSS Geçişleri ve Efektleri (Transitions):** Menünün açılıp kapanma esnasındaki genişlik değişimlerini ve butonların üzerine gelindiğinde (hover) oluşan renk geçişlerini pürüzsüz hale getirmeyi deneyimledim.
+* **Esnek Düzen Yapısı (Flexbox):** Menü elemanlarını, üst logoyu ve alt profil/çıkış bağlantılarını dikey eksende kusursuz ve simetrik bir şekilde hizalamak için Flexbox mimarisinden yararlandım.
+* **Arayüz Hiyerarşisi (UI Design):** Sadece ikonların göründüğü daraltılmış mod ile metinlerin de açığa çıktığı geniş mod arasındaki görsel hiyerarşiyi CSS sınıfları üzerinden kurgulama üzerine pratik yaptım.
+
+🔗 Projeyi görüntülemek için:
+GitHub: https://github.com/emine07/tum-mini-projeler/tree/main/CreateSidebar
+
+
+#Yazılım #YazılımGeliştirme #GitHub #HTML #CSS #Sidebar #FrontendDevelopment #UIDesign
