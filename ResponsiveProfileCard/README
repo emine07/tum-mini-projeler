@@ -1,0 +1,21 @@
+🚀 Yeni bir proje, yeni bir deneyim!
+Bir süredir üzerinde keyifle çalıştığım ResponsiveProfileCard (Mobil Uyumlu Profil Kartı) adlı mini projemi tamamladım.
+🎯 Projenin amacı:
+Sosyal medya platformları, kişisel portfolyo siteleri veya ekip tanıtım sayfalarında kullanılabilecek; kullanıcının profil fotoğrafını, biyografisini ve sosyal medya bağlantılarını estetik bir düzen içinde sunan modern, şık ve tam uyumlu (responsive) bir kart bileşeni oluşturmaktır.
+🛠️ Kullandığım teknolojiler:
+• HTML5: Yapısal içerik iskeleti oluşturma ve semantik bağlantı etiketleri için.
+• CSS3: Gradyan (gradient) renk geçişleri, esnek hizalama (Flexbox) ve gölgelendirme (box-shadow) efektleri için.
+• Font Awesome: Sosyal medya bağlantılarını temsil eden minimalist ve modern ikon setleri için.
+💡 Bu süreçte neler öğrendim?
+• Esnek ve Simetrik Hizalama: Kart içerisindeki tüm elementlerin (profil resmi, metinler, sosyal medya butonları) her ekran boyutunda merkezde ve dengeli kalmasını sağlamak için Flexbox hizalama dinamiklerini etkili bir şekilde kullandım.
+• Görsel Estetik ve Katmanlar: Profil fotoğrafına dairesel form kazandırma (border-radius: 50%), uyumlu kenarlıklar ekleme ve sosyal medya butonlarına yumuşak geçişli (transition) hover efektleri entegre ederek kullanıcı deneyimini (UX) güçlendirdim.
+• Renk Kontrastı ve Tipografi: Okunabilirliği en üst düzeye çıkarmak amacıyla arka plan renk tonları ile metin büyüklükleri arasındaki görsel hiyerarşiyi doğru kurgulama üzerine pratik yaptım.
+🔗 Projeyi görüntülemek için:
+GitHub: ResponsiveProfileCard Proje Bağlantısı
+
+
+#Yazılım #YazılımGeliştirme #GitHub #HTML #CSS #3DTransform #ResponsiveProfilCard #Frontend
+
+
+
+#Yazılım #YazılımGeliştirme #GitHub #HTML #CSS #3DTransform #ResponsiveProfilCard #Frontend
