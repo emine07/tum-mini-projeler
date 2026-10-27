@@ -1,0 +1,20 @@
+🚀 Yeni bir proje, yeni bir deneyim!
+
+Bir süredir üzerinde çalıştığım **CreditCardUIDesign (Kredi Kartı Arayüz Tasarımı)** adlı mini projemi tamamladım.
+
+🎯 Projenin amacı:
+E-ticaret sitelerinde ve ödeme sayfalarında kullanıcı deneyimini (UX) artırmak adına minimalist, estetik ve gerçekçi bir kredi kartı ön yüz bileşeni (component) tasarlamaktır. Kart üzerindeki hiyerarşiyi ve çip/logo gibi detayları CSS ile görselleştirmeyi amaçlar.
+
+🛠️ Kullandığım teknolojiler:
+* HTML5
+* CSS3 (Flexbox, Box-Shadow, Border-Radius)
+
+💡 Bu süreçte neler öğrendim?
+* **Derinlik ve Gölgelendirme (Glassmorphic/Soft UI):** `box-shadow` ve renk geçişlerini (gradients) kullanarak karta gerçekçi bir derinlik ve plastik dokusu hissi vermeyi deneyimledim.
+* **Katman Yönetimi:** Kart üzerindeki chip, kart numarası, isim ve son kullanma tarihi gibi elementleri esnek bir şekilde konumlandırmak için CSS düzen araçlarını kullandım.
+
+🔗 Projeyi görüntülemek için:
+GitHub: https://github.com/emine07/tum-mini-projeler/new/main/CreditCardUIDesign
+
+
+#Yazılım #YazılımGeliştirme #GitHub #HTML #CSS #UIDesign #CreditCard #Frontend
